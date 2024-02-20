@@ -1,0 +1,31 @@
+/* <!-- Fonts for whole website --> */
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+* {
+    font-family: "Kode Mono", monospace;
+}
+
+/* Background Image */
+body {
+    background-image: url(/img/bg.svg);
+
+    background-size: cover;
+}
+
+
+.center-text {
+    text-align: center;
+}
+
+.box {
+    font-weight: bolder;
+}
+
+.box2 {
+    font-weight: bolder;
+    text-align: center;
+}
+
+#bookmarks-home {
+    text-align: center;
+}
