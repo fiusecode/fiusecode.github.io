@@ -7,9 +7,16 @@
 
 /* Background Image */
 body {
-    background-image: url(/img/bg.svg);
+    /* background-image: url(/img/bg.svg);
 
-    background-size: cover;
+    background-size: cover; */
+
+    background-color: black;
+}
+
+#site-name{
+    color: purple;
+    text-shadow: 2px 2px 4px purple;
 }
 
 
@@ -24,6 +31,8 @@ body {
 .box2 {
     font-weight: bolder;
     text-align: center;
+    color: purple;
+    text-shadow: 2px 2px 4px purple;
 }
 
 #bookmarks-home {
@@ -40,12 +49,12 @@ body {
 }
 
 .link-shadow:hover {
-    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.63);
+    box-shadow: 5px 5px 15px 5px blueviolet;
     cursor: pointer;
 }
 
 .link-shadow:active {
-    box-shadow: 5px 5px 15px 5px green;
+    box-shadow: 5px 5px 15px 5px blue;
 }
 
 .img-btn {
