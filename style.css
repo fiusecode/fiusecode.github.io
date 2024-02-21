@@ -34,12 +34,13 @@ body {
     box-shadow: 5px 5px 15px 5px rgba(245, 5, 253, 0.63);
     text-align: center;
     height: 80px;
+    width: 80px;
     padding: 23px;
     margin: 23px auto;
 }
 
-.link-shadow .img-btn:hover {
-    /* box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.63); */
+.link-shadow:hover {
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.63);
     cursor: pointer;
 }
 
@@ -48,5 +49,11 @@ body {
 }
 
 .img-btn {
+
     width: 75px;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
