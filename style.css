@@ -7,15 +7,11 @@
 
 /* Background Image */
 body {
-    /* background-image: url(/img/bg.svg);
-
-    background-size: cover; */
-
     background-color: black;
+    color: purple;
 }
 
 #site-name{
-    color: purple;
     text-shadow: 2px 2px 4px purple;
 }
 
@@ -24,9 +20,9 @@ body {
     text-align: center;
 }
 
-.box {
+/* .box {
     font-weight: bolder;
-}
+} */
 
 .box2 {
     font-weight: bolder;
@@ -42,7 +38,6 @@ body {
 .link-shadow {
     box-shadow: 5px 5px 15px 5px rgba(245, 5, 253, 0.63);
     text-align: center;
-    height: 80px;
     width: 80px;
     padding: 23px;
     margin: 23px auto;
@@ -57,12 +52,17 @@ body {
     box-shadow: 5px 5px 15px 5px blue;
 }
 
-.img-btn {
+/* .img-btn {
 
     width: 75px;
     margin: auto;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+} */
+
+.menu{
+    display: flex;
+}
+
+.menu-opt{
+    list-style: none;
+    padding-inline: 40px;
 }
