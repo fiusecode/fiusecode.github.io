@@ -10,7 +10,117 @@ body {
     background-color: black;
     color: purple;
 }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+:root {
+    /* First Color Palette */
+    --navBar:
+        #31263E;
+    --secondary-color:
+        #221E22;
+    --primary-color:
+        #44355B;
+    --hoverShadowColor:
+        #ECA72C;
+    --activeShadowColor:
+        #EE5622;
+
+    /* First Color Palette */
+    /* --navBar:
+        #595959;
+    --secondary-color:
+        #CECFC7;
+    --primary-color:
+        #ADA8B6;
+    --hoverShadowColor:
+        #23022E;
+    --activeShadowColor:
+        #573280; */
+}
+
+.main {
+    font-weight: bolder;
+    text-align: center;
+    color: var(--secondary-color);
+    text-shadow: 2px 2px 4px var(--secondary-color);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    color: white;
+    background-color: var(--primary-color);
+}
+
+
+/* nav */
+.menu {
+    background-color: var(--navBar);
+    /* padding: 12px 0; */
+    margin: 5px;
+    border: 2px solid var(--secondary-color);
+    border-radius: 7px;
+}
+
+/* ul */
+.list {
+    list-style: none;
+    display: flex;
+}
+
+/* link in nav */
+.list li a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+/* li */
+.menu-opt {
+    background-color: var(--secondary-color);
+    border: 2px solid var(--primary-color);
+    padding: 5px;
+    margin: 15px;
+    font-weight: bolder;
+    border-radius: 7px;
+}
+
+.menu-opt:hover {
+    box-shadow: 1px 1px 10px 1px var(--primary-color);
+    cursor: pointer;
+}
+
+.menu-opt:active {
+    box-shadow: 1px 1px 10px 1px var(--hoverShadowColor);
+    color: var(--hoverShadowColor);
+}
+
+/* Back to home button */
+.back-btn{
+    background-color: var(--secondary-color);
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+.back-margin{
+    padding: 10px;
+}
+
+.back-btn:hover {
+    box-shadow: 1px 1px 10px 1px black;
+    cursor: pointer;
+}
+
+.back-btn:active {
+    box-shadow: 1px 1px 10px 1px var(--hoverShadowColor);
+    color: var(--hoverShadowColor);
+}
 #site-name{
     text-shadow: 2px 2px 4px purple;
 }
